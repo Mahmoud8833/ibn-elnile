@@ -87,3 +87,118 @@ body {
 .header .content p {
     font-size: 3em;
 }
+
+.about {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    background-image: url(imgs/firefighter-1019798_1920-pp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.us {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    color: rgb(180, 180, 180);
+}
+
+.usText {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+} */
+
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.slider .slide {
+    width: 20%;
+    height: 80%;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.slider .slide:nth-child(1) {
+    background: url("imgs/s1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(2) {
+    background: url("imgs/s2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(3) {
+    background: url("imgs/s3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(4) {
+    background: url("imgs/s4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(5) {
+    background: url("imgs/s5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:nth-child(6) {
+    background: url("imgs/s6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.slider .slide:hover {
+    width: 50%;
+    cursor: pointer;
+}
